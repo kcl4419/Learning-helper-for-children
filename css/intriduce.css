@@ -1,0 +1,189 @@
+@import url("style.css");
+
+#full-page {
+    height: 100vh;
+}
+
+.section {
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+.section.s0 {
+    background-color: rgb(234, 241, 255);
+    position: relative;
+}
+
+.backcloud {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .backcloud {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+main .backcloud .cloud {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+main .backcloud .cloud.c1 {
+    border-radius: 7% 100% 7% 0%;
+    position: relative;
+}
+
+main .backcloud .cloud.c1 div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+main .backcloud .cloud.c1 .d1 {
+    top: -97px;
+
+}
+
+main .backcloud .cloud.c1 .d2 {
+    top: -45px;
+    left: 139px;
+
+}
+
+main .backcloud .cloud.c1 .d3 {
+    top: 57px;
+    right: -39px;
+}
+
+main .backcloud .cloud.c1 .d4 {
+    bottom: 0;
+    right: -60px;
+}
+
+main .backcloud .cloud.c2 {
+    border-radius: 100% 7% 0% 7%;
+    position: relative;
+}
+
+main .backcloud .cloud.c2 div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+main .backcloud .cloud.c2 .d1 {
+    top: -97px;
+    right: 0;
+
+}
+
+main .backcloud .cloud.c2 .d2 {
+    top: -45px;
+    right: 139px;
+
+}
+
+main .backcloud .cloud.c2 .d3 {
+    top: 57px;
+    left: -39px;
+}
+
+main .backcloud .cloud.c2 .d4 {
+    bottom: 0;
+    left: -60px;
+}
+main .main-text{
+    position: absolute;
+    font-size: 4em;
+    height: 100%;
+    width: 100%;
+    top:0;
+    bottom:0;
+    margin: 30% auto;
+    line-height:1.5;
+}
+main .main-text li{
+
+    text-align: center;
+}
+.balloon img{
+    width: 150px;
+    position: absolute;
+    left: 150px;
+    bottom:50px
+}
+main .backcloud .a-cloud.c3{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    bottom: -106px;
+    justify-content: center;
+}
+main .backcloud .a-cloud.c3 div{
+    background-color: rgb(255, 255, 255);
+    width:50%;
+    height: 200px;
+    border-radius: 50%;
+}
+.section.s1{
+
+}
+.section.s1 img{
+    position: absolute;
+    left: 150px;
+    width: 300px;
+}
+.section.s1 .text{
+    font-size: 50px;
+}
+.section.s1 .text1{
+    position: absolute;
+    top:63px;
+}
+.section.s1 .text2{
+    position: absolute;
+    top:193px;
+    left:86px;
+}
+.section.s1 .s1-content .inner{
+
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.section.s1 .s1-content .intro-con{
+    position: relative;
+    margin-top: 400px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 117, 75, 0.205);
+    border-radius: 10px;
+}
+.intro-con .a img{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 0;
+    right: 0;
+    margin: 10px auto;
+    border-radius: 20%;
+} 
+.intro-con .a ul{
+    font-size: 18px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    left:25px;
+}

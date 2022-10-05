@@ -1,0 +1,48 @@
+@import url("style.css");
+.main-big-circle{
+  position: absolute;
+  width: 994px;
+  height: 489px;
+  background-color: rgb(170, 200, 255);
+  border-radius: 0 0% 207% 0%;
+}
+main .main_title{
+  position: absolute;
+  font-size: 90px;
+  left: 0px;
+  top:100px;
+}
+main .main_select{
+  font-size: 22px;
+  display: inline-flex;
+  justify-content:center;
+  position: absolute;
+  max-width: 400px;
+  height: 70px;
+  background-color: rgb(235, 233, 233);
+  top:400px;
+  left: 0;
+  right: 0;
+  margin:0 auto;
+  border-radius: 50px;
+}
+
+main .sel_kid{
+  line-height: 70px;
+  text-align: center;
+  position: relative;
+  left: 10px;
+}
+main .sel_my{
+  position: relative;
+  text-align: center;
+  right: -60px;
+  width: 225px;
+  line-height: 70px;
+  background-color: rgb(255, 195, 195);
+  border-radius: 50px;
+}
+main .sel_kid:hover a,
+main .sel_my:hover a{
+ color:#fff;
+}
